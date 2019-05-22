@@ -1,0 +1,41 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.1.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: b37c3cdb18d5ac8ebe4f18a0dc3a7fff1079ddc6d70090f94dfc7eeff73d249a
+
+name:           Mijo
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/githubuser/Mijo#readme
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2019 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+executable Mijo
+  main-is: Main.hs
+  other-modules:
+      Free
+      KindaFree
+      Nat
+      Service
+      Tracer
+      Paths_Mijo
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , containers
+    , ghc-heap
+    , hashable
+    , mtl
+    , profunctors
+    , unordered-containers
+  default-language: Haskell2010
