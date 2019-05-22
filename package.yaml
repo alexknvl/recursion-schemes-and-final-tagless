@@ -1,4 +1,4 @@
-name:                Mijo
+name:                RecursionSchemesWorkshop
 version:             0.1.0.0
 #synopsis:
 #description:
@@ -21,6 +21,6 @@ dependencies:
   - ghc-heap
 
 executables:
-  Mijo:
+  RecursionSchemesWorkshop:
     source-dirs:      src
     main:             Main.hs
